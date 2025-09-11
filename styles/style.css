@@ -5,22 +5,28 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:#fff9f0;
+	--color-highlights:#ffaa00;
+
+	--color-button:#ffaa00;
+	--color-button-small:#fff9f0;
+
+	--color-article:#181d20;
+	--color-artice-event:#fff;
+	--color-background:#3b4044;
 }
 
-
-
+@font-face {
+  font-family: 'ferry-black';
+  src: url("../../font/ferry-black.woff2") format("woff2"), url("../../fonts/ferry-black.woff2") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 /****************/
@@ -28,4 +34,150 @@
 /****************/
 
 /* jouw code */
+body{
+	margin: 0;
+	background-color:var(--color-background);
+	font-family: "ferry-black", serif;
+}
 
+main{
+	margin: 1rem;
+}
+
+
+
+/*******************/
+/* HOOFD NAVIGATIE */
+/*******************/
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	
+
+	background-color: #111;
+
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin: 0;
+	margin-top: -7rem;
+	width: 100%;
+}
+
+nav img{
+	width: 35px;
+}
+nav a{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  text-decoration: none;
+
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+/*******************/
+/*   FONT STYLES   */
+/*******************/
+h1{
+	font-size: 2.6rem;
+	line-height: 2.2rem;
+
+	margin-left: 1rem;
+	color:var(--color-text);
+	position: absolute; /* overlay over de afbeelding */
+  	top: -3.5rem;          /* afstand van bovenkant van container */
+  	left: 1rem; 
+}
+h1 span{
+	color:var(--color-highlights);
+}
+h2{
+	color:var(--color-text);
+	
+
+}
+
+h3{
+	color:var(--color-highlights);
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+h4{
+	color:var(--color-text);
+}
+
+
+/*******************/
+/*      HEADER     */
+/*******************/
+
+header {
+  background-color:var(--color-article); /* gewenste achtergrondkleur */
+  padding-bottom:3rem;
+  padding-top: 7rem;
+}
+
+.events {
+  position: relative; /* nodig voor overlay tekst */
+  margin: 1rem;    /* 1rem marge aan beide kanten van de afbeelding */
+}
+
+.events img {
+  width: 100%;        /* afbeelding past zich aan container aan */
+  display: block;     /* voorkomt extra ruimte onder afbeelding */
+}
+/*******************/
+/*  Button style   */
+/*******************/
+
+button{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin: 1rem 0rem 1rem 0rem;
+	padding: 1rem;
+	width: 100%;
+
+	background-color:var(--color-button);
+	border-radius: 3rem;
+	border: none;
+
+	font-family: "ferry-black", serif;
+	font-size: 1rem;
+
+}
+button img{
+	height: 20px;
+}
+
+/*******************/
+/*    Articles     */
+/*******************/
+article{
+	display: flex;
+	flex-direction: column;
+
+	background-color:var(--color-article);
+}
+article section{
+	padding: 1rem;
+}
+
+article button{
+	background-color:var(--color-button-small);
+	
+	width: 10rem;
+	height:4rem ;
+	margin: 0;
+
+	font-size: 1rem;
+}
+
+.komende-events article{
+	background-color:var(--color-artice-event);
+}

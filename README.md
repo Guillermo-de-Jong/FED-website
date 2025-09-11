@@ -10,11 +10,11 @@ Nb. Door _open_ toe te voegen aan een _details_ element kun je deze standaard op
 ## Jij
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
 
-Guillermo de Jong (vervangen door jouw naam)
+Guillermo de Jong
 
 #### Je startniveau:
 
@@ -22,30 +22,28 @@ Rood
 
 #### Je focus:
 
-responsive
+responsive Design
 
 </details>
 
 ## Je website
 
-<details open>
+  <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
 
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-
-https://martingarrix.com
+https://werkenbijdefensie.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
-homepage
-<img src="readme-images/screenshot-home" width="375px" alt="Is de homepagina van de website van Martin Garrix">
+Praktische informatie
+<img src="readme-images/praktisch.png" width="375px" alt="Is de pagina met alle praktische informatie als je gaat werken bij Defensie.">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
-Music  
- <img src="readme-images/screenshot-music.png" width="375px" alt="oPagina waar alle muziek te vnden is van Martin garix, met het jaartal erbij.">
+Events
+<img src="readme-images/events.png" width="375px" alt="De pagina waar alle evenementen te vinden zijn die Defensie organiseerd, zowel online als fysiek.">
 
 </details>
 
@@ -57,6 +55,14 @@ Music
 ### Bevindingen
 
 Lijst met je bevindingen die in de test naar voren kwamen:
+
+Ik merk dat het, zeker in het begin, lastig is om te weten welke knopen je nodig hebt. Soms wou ik sneller door de inhoud heen dan de voice-over toelaat. Tijdens het testen van de website vielen er ook een aantal andere dingen op.
+Zo benoemt de screenreader bepaalde onderdelen die de gebruiker op dat moment niet ziet. Een voorbeeld hiervan is het hoofdmenu: alle kopjes worden benoemd, maar visueel zijn ze niet zichtbaar. Je moet dus onthouden wat er gezegd wordt, wat voor slechtziende mensen erg vervelend kan zijn. Zij zien vaak nog wel bepaalde elementen.
+In het begin vond ik het bovendien lastig om de chatbot te openen die onderaan het scherm staat. Ik weet niet of dit een fout in de website is, of dat ik zelf niet de juiste rotor of knop gebruikte.
+Ook de titel op de homepage levert problemen op. Deze luidt: “Tijd vo:or defensie”. Volgens de bedoeling moet dit aangeven dat het tijd is om bij Defensie te gaan, maar de screenreader splitst dit op in twee losse woorden (“vo” en “or”), en leest de dubbele punt als een afbeelding.
+Positief is dat de website een contrastmodus aanbiedt, wat erg waardevol is voor mensen met verminderd zicht. Wel vond ik dat deze functie zonder screenreader lastig te vinden en te activeren was.
+Daarnaast heb ik het idee dat de afbeeldingen op de website geen alt-teksten hebben. De screenreader benoemt ze simpelweg als “afbeelding”, zonder verdere beschrijving. Dit maakt het moeilijk om te begrijpen wat er daadwerkelijk op de afbeeldingen te zien is.
+Tot slot viel me op dat de screenreader in Word bij het typen iedere letter afzonderlijk benoemt. Na een tijdje werd dit erg hinderlijk en zelfs frustrerend.
 
 </details>
 
@@ -86,7 +92,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Tot nu toe gaat het aardig goed met de opdracht. Het frame van de eerste pagina staat zo goed als klaar, en nu bezig met de css voor die pagina. in het begin was het nog even zoeken welke webite ik wou gaan maken, maar uiteindelijk een, hopelijk goede, keuze kunnen maken.
 
 ### Agenda voor meeting
 
