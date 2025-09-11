@@ -161,6 +161,7 @@ button img{
 article{
 	display: flex;
 	flex-direction: column;
+	margin-bottom:1rem;
 
 	background-color:var(--color-article);
 }
