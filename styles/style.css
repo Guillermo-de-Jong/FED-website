@@ -37,14 +37,14 @@
 
 body {
   margin: 0;
-  background-color: var(--color-background);
+  background-color: var(--color-article);
   font-family: "ferry-black", serif;
 
   overflow-x: hidden;
 }
 
-main {
-  margin: 1rem;
+main{
+	margin-top: 2rem;
 }
 
 
@@ -81,6 +81,7 @@ nav {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  text-decoration: none;
 }
 
 .logo img {
@@ -229,7 +230,7 @@ h1 {
   line-height: 2.2rem;
 
   position: absolute;
-  top: -3.5rem;
+  top: -2rem;
   left: 1rem;
 
   margin-left: 1rem;
@@ -282,6 +283,11 @@ header h1{
 	margin-top: 10rem;
 }
 
+.hero{
+	    margin-top: 2.5rem;
+
+		
+}
 .hero img{
 width: calc(100% - 2rem); /* trek links en rechts 2rem af */
   margin: 0  1rem;
@@ -391,6 +397,7 @@ p {
   align-items: center;
   justify-content: center;
   font-size: 0.6rem;
+  margin: 1rem 0;
 }
 
 /*******************/

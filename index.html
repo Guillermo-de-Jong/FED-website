@@ -16,10 +16,40 @@
 <header>
 <!--NAVIGATIE-->
     <nav>
-      	<a href="#">Menu</a>
-		<a href="#"><img src="images/Logo_rijksoverheid.png" alt="Logo van de Rijksoverheid"/>Ministerie van Defensie</a>
-    	<a href="#">Z</a>
-    </nav>
+    <!-- Hamburger + Menu -->
+    <button class="menu-toggle" aria-label="Open menu">
+      <span class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <span class="menu-label">Menu</span>
+    </button>
+
+    <!-- Logo in het midden -->
+    <a href="#" class="logo">
+      <img src="images/Logo_rijksoverheid.png" alt="Logo Rijksoverheid">
+      <span>Ministerie van Defensie</span>
+    </a>
+
+    <!-- Acties rechts -->
+    <div class="actions">
+      <a href="#" class="login">Inloggen</a>
+      <button class="search" aria-label="Zoeken">
+        <img src="images/search-icon.png" alt="">
+      </button>
+    </div>
+
+    <!-- Verborgen navigatie -->
+    <ul class="nav-links">
+      <li><a href="/ontdek-defensie">Ontdek Defensie</a></li>
+      <li><a href="/opleidingen">Opleidingen</a></li>
+      <li><a href="/vacatures">Vacatures</a></li>
+      <li><a href="/jouw-mogelijkheden">Jouw mogelijkheden</a></li>
+      <li><a href="/events">(Online) Events</a></li>
+      <li><a href="/praktische-info" aria-current="page">Praktische info</a></li>
+    </ul>
+  </nav>
 
 	<!--Evenementen-->		
   	<section class="events">
